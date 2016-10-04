@@ -1,0 +1,12 @@
+S@n1x-Compressor
+		function BD($host,$db,$user,$pass){
+		if(!isset($motdepasse)){
+			$motdepasse='';
+		}
+		try{
+			$BD=new PDO('mysql:host='.$host.';dbname='.$db,$user,$pass);
+		}
+		catch(Exeption $e){
+			die('Erreur:'.$e->getMessage());
+		}
+	}

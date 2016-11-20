@@ -1,5 +1,5 @@
 ﻿<?php 
- 	//  Yo tout le monde, un exelent moyen de reduire ses codes pour une compilation plus rapide
+ 	// Yo tout le monde, un exelent moyen de reduire ses codes pour une compilation plus rapide
 	//pas tres compliker a mettre en oeuvre mais ouf
 	function r($a,$b,$char){return str_replace($a,$b,$char);}
 	function s($tr){return r("\'","'",htmlspecialchars($tr));}
